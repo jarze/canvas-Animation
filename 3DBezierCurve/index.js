@@ -197,6 +197,7 @@
 		camera.y += (trails[0].pos.y - camera.y) * 0.0005 * time_d;
 		camera.z += (trails[0].pos.z - camera.z - 100) * 0.0005 * time_d;
 		time_pre = time_now;
+		console.log(trails, '====');
 	};
 	drawScene = function (ctx) {
 		var i;
@@ -263,10 +264,11 @@
 	canvas.width = w.innerWidth;
 	canvas.height = w.innerHeight;
 	ctx.translate(canvas.width / 2, canvas.height / 2);
+
 	var loop = function () {
 		updateScene();
 		drawScene(ctx);
-		w.requestAnimationFrame(loop);
+		// w.requestAnimationFrame(loop);
 	};
 	loop();
 })(document, window);

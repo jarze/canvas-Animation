@@ -53,7 +53,7 @@ function drawHour(hour,minute) {
 	ctx.moveTo(0, 10* rem);
 	ctx.lineTo(0, -r * 2 / 5);
 	ctx.stroke();
-	ctx.restore();	
+	ctx.restore();
 }
 
 function drawMinute(minute) {

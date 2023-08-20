@@ -1,0 +1,16 @@
+body {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+h2 {
+	text-align: center;
+	width: 100%;
+	color: rgba(0, 0, 0, .5);
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 10px;
+	font-size: 3em;
+	position: absolute;
+	left: 0;
+	top: 45%;
+}

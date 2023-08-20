@@ -64,7 +64,7 @@ function canvasApp() {
 		and allow the radius of them to vary. If so, modify the next three variables.
 		*/
 		numCircles = 1;
-		maxMaxRad = 200;
+		maxMaxRad = 100;
 		minMaxRad = 200;
 
 		/*
@@ -77,7 +77,7 @@ function canvasApp() {
 		The number of subdividing steps to take when creating a single fractal curve. 
 		Can use more, but anything over 10 (thus 1024 points) is overkill for a moderately sized canvas.
 		*/
-		iterations = 10;
+		iterations = 1;
 
 		//number of curves to draw on every tick of the timer
 		drawsPerFrame = 8;
