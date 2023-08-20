@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+}
+.dot{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #91e600;
+	border-radius: 50%;
+	visibility:hidden;
+}

@@ -1,0 +1,17 @@
+.container {
+  margin: 40px;
+  height: 400px;
+  background-color: #F7F5F2;
+}
+
+.svg-path {
+  fill: #B4DC7F;
+  stroke: #B4DC7F;
+  stroke-width: 1.5;
+  fill-opacity: 0.15;
+  stroke-opacity: 0.8;
+}
+
+.svg-circles {
+  fill: #D62300;
+}
